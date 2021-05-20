@@ -156,6 +156,7 @@ export default {
         });
         if (n && n !== this.lyricIndex) {
           this.lyricIndex = n;
+          // 播放到第4行的时候才滚动
           let index = this.lyricIndex - 3;
           index < 0 ? (index = 0) : null;
           this.$swiper.slideTo(index, 200);
