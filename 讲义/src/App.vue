@@ -18,11 +18,11 @@ export default {
   data() {
     return {
       isSave: false,
-      data: "",
+      data: ""
     };
   },
   components: {
-    ClipImage,
+    ClipImage
   },
   methods: {
     saveImage(payload) {
@@ -31,8 +31,8 @@ export default {
     },
     change() {
       this.isSave = false;
-    },
-  },
+    }
+  }
 };
 </script>
 
